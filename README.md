@@ -1,1 +1,2 @@
 # FizzBuzzGame
+Just for practice.
