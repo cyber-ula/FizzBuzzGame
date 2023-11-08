@@ -10,18 +10,19 @@ namespace Week4Task2
     {
         public string ResultGame(int input)
         {
-            if(input % 3 == 0 && input % 5 == 0)
+            if (input % 3 == 0 && input % 5 == 0)
             {
                 return "FizzBuzz";
-
-            }else if( input%3 == 0){
-
+            }
+            else if (input % 3 == 0)
+            {
                 return "Fizz";
-
-            }else if ( input%5 == 0)
+            }
+            else if (input % 5 == 0)
             {
                 return "Buzz";
             }
+
             return input.ToString();
         }
     }
